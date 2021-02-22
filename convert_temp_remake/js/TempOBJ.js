@@ -1,4 +1,4 @@
-let TempController = new tempController("Master", "AddTempValues", "addTemp", "Escolha", "Button");
+let TempController = new tempController("Master", "AddTempValues", "addTemp", "Escolha", "Button", "Resultado");
 //console.log(tempController);
 
 //AddTempValues = Escala de temperatura primeira
