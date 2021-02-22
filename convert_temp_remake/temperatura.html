@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/temperatura.css">
+   <!-- <link rel="icon" href="./img/FotoJet.png" type="image/x-icon"> --> 
+
+
+    <title>Conversor de temperaturaa</title>
+</head>
+
+<h1 id="cabeca"><b>Conversor de temperatura</b></h1>
+<div id="receber_valor"></div>
+<div id="receber_temp"></div>
+<div id="receber_convert"> </div>
+<div id="receber_resultado"></div>
+
+</div>
+
+<body>
+
+    <h3>
+        <div id="QualTemp">Insira a temperatura(digite "ENTER" para confirmar</div>
+    </h3>
+    <!--input que recebe o valor da temperatura colocada pelo usuário -->
+    <div>
+        <input class="input_temp" id="addTemp" type="number" placeholder="Adicionar temperatura"
+            onchange="Temperatura();" onclick="Clear();">
+
+        <!--select que recebe a escala da temperatura temperatura do valor que o 
+        usuário inseriu -->
+        <select id="AddTempValues" onchange="Selecionar(); ">
+            <option value="">--Escala--</option>
+            <option value="C">Celsius</option>
+            <option value="F">Fahrenheit</option>
+            <option value="K">Kelvin</option>
+        </select>
+
+        <p>
+
+        </p>
+        <!-- Select que recebe a escala na qual o usuário quer converter -->
+        <h4>
+            <div id="Converter_para">Converter para:</div>
+        </h4>
+        <select id="Escolha" onchange="Converter();">
+            <option value=""> --Escala--</option>
+            <option value="Celsius">Celsius</option>
+            <option value="Fahrenheit">Fahrenheit</option>
+            <option value="Kelvin">Kelvin</option>
+        </select>
+
+        <p>
+
+        </p>
+
+
+        <h5>
+            <div id="Convertido">Resultado</div>
+        </h5>
+        <!-- -->
+        <input id="Resultado" type="number" placeholder disabled="valor final">
+        <button id="Button" type="submit"> Realizar Conversão </button>
+    </div>
+
+    <div><a href="inicio.html">
+            <h6><button id="inicio">voltar ao inicio</button>
+            </h6>
+        </a>
+    </div>
+    <script src="js/NewTemp.js"></script>
+
+    <script src="js/TempOBJ.js"></script>
+
+
+</body>
+
+</html>

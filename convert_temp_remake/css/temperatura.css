@@ -1,0 +1,160 @@
+body{
+   background-image:url(https://previews.123rf.com/images/nnudoo/nnudoo1707/nnudoo170700195/82399869-thermometer-on-a-green-nature-background-and-temperature-measuring-environment-concept-.jpg);
+  
+   
+	
+   
+}
+
+title{
+	background-color: #333;
+	height: 3em;
+	color: #FFF;
+   margin-bottom: 1em;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+/*estilo do "conversão de temperatura */
+ h1{
+    border-width: 12cm;
+    border-color: blue;
+   height: 1cm; 
+   display: block;
+	border:2px solid white;
+	padding: 20px 10px;
+	font-size: 2em;
+	width: 90%;
+	text-transform: uppercase;
+	outline: none;
+	color: black;
+   box-sizing:inherit;
+   background-color:skyblue;
+   top: 10%;
+   border-radius: 12cm;
+   
+}
+
+
+/*Estilo dos Placeholders*/
+input, input_temp{
+	width: 10%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	border: 2px solid black;
+	border-radius: 2px;
+	background-color: #3CBC8D;
+	color: black;
+	box-sizing: border-box;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 1em;
+	position:inherit;
+	-webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+  border-radius: 12cm;
+  font-size: 1.1em
+}
+	
+  
+	
+/*Para dar um efeito de aumento da barra*/
+input:focus {
+	width: 30%;
+  }
+
+  /* Estilo dos Selects*/
+  select{
+	font-family: 'Times New Roman', Times, serif;
+	background-color: DodgerBlue;
+    content: "";
+    top: 14px;
+  	right: 10px;
+   	border: 6px solid transparent;
+  	border-color: #fff transparent transparent transparent;
+  	border-color: transparent transparent #fff transparent;
+  	top: 7px;
+  	color: #ffffff;
+  	padding: 8px 16px;
+  border: 1px solid transparent;
+  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+  cursor: pointer;
+  background-color: midnightblue;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  font-size: 1em;
+  font-optical-sizing:initial;
+  border-radius: 12cm;
+  }
+  /*Estilo do botão*/
+  button{
+	background-color:white;
+  border: none;
+  color:black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border: 5px solid #4CAF50;
+  -webkit-transition-duration: 0.4s; 
+  transition-duration: 0.4s;
+  border-radius: 12cm;
+  
+  }
+  /*hover para trocar a cor quando o mouse passa por cima*/
+  button:hover {
+	background-color: royalblue; 
+	color: black;
+	border-color: red;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+  
+  h3{
+	font-size: 1.4em;
+	background-color: skyblue;
+	width: 40%;
+	border: 2px solid purple;
+	border-radius: 12cm;
+  }
+  h4{
+	font-size: 1.4em;
+	background-color: skyblue;
+	width: 20%;
+	border: 2px solid purple;
+	border-radius: 12cm;
+	}
+  
+	h5{
+	font-size: 1.4em;
+	background-color: skyblue;
+	width: 10%;
+	border: 2px solid purple;
+	border-radius: 12cm;
+  }
+#inicio{
+	
+		background-color:white;
+	  border: none;
+	  color:black;
+	  padding: 10px 20px;
+	  text-align: center;
+	  text-decoration: none;
+	  display: inline-block;
+	  font-size: 16px;
+	  border: 5px solid #4CAF50;
+	  -webkit-transition-duration: 0.4s; 
+	  transition-duration: 0.4s;
+	  border-radius: 12cm;
+	  
+	  
+}
+#inicio:hover {
+	background-color: yellowgreen; 
+	color: black;
+	border-color: red;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+  
+  
+  
