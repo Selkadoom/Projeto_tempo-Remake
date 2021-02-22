@@ -20,7 +20,7 @@
 <div id="receber_resultado"></div>
 
 </div>
-
+<div id="Master">
 <body>
 
     <h3>
@@ -29,16 +29,19 @@
     <!--input que recebe o valor da temperatura colocada pelo usuário -->
     <div>
         <input class="input_temp" id="addTemp" type="number" placeholder="Adicionar temperatura"
-            onchange="Temperatura();" onclick="Clear();">
+            >
 
         <!--select que recebe a escala da temperatura temperatura do valor que o 
         usuário inseriu -->
-        <select id="AddTempValues" onchange="Selecionar(); ">
+        <select id="AddTempValues" >
+            <!-- onchange="Selecionar(); >" --> 
             <option value="">--Escala--</option>
             <option value="C">Celsius</option>
             <option value="F">Fahrenheit</option>
             <option value="K">Kelvin</option>
         </select>
+
+      
 
         <p>
 
@@ -64,19 +67,16 @@
         </h5>
         <!-- -->
         <input id="Resultado" type="number" placeholder disabled="valor final">
-        <button id="Button" type="submit"> Realizar Conversão </button>
+        <button id="Button" type="submit"> Realizar Conversão :3 </button>
     </div>
 
-    <div><a href="inicio.html">
-            <h6><button id="inicio">voltar ao inicio</button>
-            </h6>
-        </a>
-    </div>
-    <script src="js/NewTemp.js"></script>
-
-    <script src="js/TempOBJ.js"></script>
+    
 
 
 </body>
 
+<script src="js/NewTemp.js"></script>
+
+    <script src="js/TempOBJ.js"></script>
+</div>
 </html>
